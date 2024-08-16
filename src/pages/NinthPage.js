@@ -1,6 +1,5 @@
 import React from "react";
 
-import NinthPageImage from "../assets/images/ninthpage-image.png";
 import ScrollAnimation from "react-animate-on-scroll";
 
 export default function NinthPage() {
@@ -27,7 +26,11 @@ export default function NinthPage() {
                     charge Apple Watch or AirPods. Bye-bye, cable clutter.
                 </ScrollAnimation>
             </div>
-            <img src={NinthPageImage} alt="Ninth Page Image" className="" />
+            <img
+                src="https://res.cloudinary.com/diutkhjd3/image/upload/v1723805967/iphone-15/ninthpage-image_kyi8bj.png"
+                alt="Ninth Page Image"
+                className=""
+            />
         </section>
     );
 }

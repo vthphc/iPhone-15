@@ -1,7 +1,5 @@
 import React from "react";
 
-import highLight_1 from "../assets/videos/highlight_1.mp4";
-
 export default function FirstHighlightCard() {
     return (
         <div className="flex justify-center max-w-[60rem] items-center">
@@ -14,9 +12,12 @@ export default function FirstHighlightCard() {
                     autoPlay
                     muted
                     playsInline={true}
-                    key={highLight_1}
+                    key="https://res.cloudinary.com/diutkhjd3/video/upload/v1723805978/iphone-15/highlight_1_ykgwsy.mp4"
                 >
-                    <source src={highLight_1} type="video/mp4" />
+                    <source
+                        src="https://res.cloudinary.com/diutkhjd3/video/upload/v1723805978/iphone-15/highlight_1_ykgwsy.mp4"
+                        type="video/mp4"
+                    />
                 </video>
             </div>
         </div>

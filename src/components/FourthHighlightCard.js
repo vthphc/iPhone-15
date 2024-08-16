@@ -1,7 +1,5 @@
 import React from "react";
 
-import highlight_4 from "../assets/images/highlight-4.jpg";
-
 export default function FourthHighlightCard() {
     return (
         <div>
@@ -12,8 +10,8 @@ export default function FourthHighlightCard() {
                             Charging as easy as USB-C.
                         </p>
                         <img
-                            src={highlight_4}
-                            alt="highlight_3"
+                            src="https://res.cloudinary.com/diutkhjd3/image/upload/v1723805967/iphone-15/highlight-4_xna8o2.jpg"
+                            alt="highlight_4"
                             className="rounded-2xl w-full"
                         />
                     </div>

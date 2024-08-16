@@ -1,7 +1,5 @@
 import React from "react";
 
-import highlight_3 from "../assets/videos/highlight_3.mp4";
-
 export default function ThirdHighlightCard() {
     return (
         <div>
@@ -16,9 +14,12 @@ export default function ThirdHighlightCard() {
                         autoPlay
                         muted
                         playsInline={true}
-                        key={highlight_3}
+                        key="https://res.cloudinary.com/diutkhjd3/video/upload/v1723805973/iphone-15/highlight_3_ub24xc.mp4"
                     >
-                        <source src={highlight_3} type="video/mp4" />
+                        <source
+                            src="https://res.cloudinary.com/diutkhjd3/video/upload/v1723805973/iphone-15/highlight_3_ub24xc.mp4"
+                            type="video/mp4"
+                        />
                     </video>
                 </div>
             </div>

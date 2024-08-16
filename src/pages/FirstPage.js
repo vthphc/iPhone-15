@@ -1,10 +1,8 @@
 import React from "react";
 
-import videoSrc from "../assets/videos/hero.mp4";
-
 export default function FirstPage() {
     return (
-        <section id='firstpage'>
+        <section id="firstpage">
             <div className="flex flex-col items-center">
                 <p className="font-inter py-4 text-sm text-center max-w-[24rem]">
                     Get $170–$620 in credit toward iPhone 15 when you trade in
@@ -19,9 +17,12 @@ export default function FirstPage() {
                 autoPlay
                 muted
                 playsInline={true}
-                key={videoSrc}
+                key="https://res.cloudinary.com/diutkhjd3/video/upload/v1723805973/iphone-15/hero_sxeyah.mp4"
             >
-                <source src={videoSrc} type="video/mp4" />
+                <source
+                    src="https://res.cloudinary.com/diutkhjd3/video/upload/v1723805973/iphone-15/hero_sxeyah.mp4"
+                    type="video/mp4"
+                />
             </video>
             <div className="flex flex-col py-8 space-y-8 items-center">
                 <a

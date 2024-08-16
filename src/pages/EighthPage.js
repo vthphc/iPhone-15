@@ -1,6 +1,5 @@
 import React from "react";
 
-import videoSrc from "../assets/videos/a16_bionic.mp4";
 import iphoneBatteryIcon from "../assets/icon/icon_iphone_battery_white.png";
 import ScrollAnimation from "react-animate-on-scroll";
 
@@ -20,9 +19,12 @@ export default function EighthPage() {
                 autoPlay
                 muted
                 playsInline={true}
-                key={videoSrc}
+                key="https://res.cloudinary.com/diutkhjd3/video/upload/v1723805981/iphone-15/a16_bionic_xt187f.mp4"
             >
-                <source src={videoSrc} type="video/mp4" />
+                <source
+                    src="https://res.cloudinary.com/diutkhjd3/video/upload/v1723805981/iphone-15/a16_bionic_xt187f.mp4"
+                    type="video/mp4"
+                />
             </video>
             <ScrollAnimation
                 animateIn="fadeInUp"

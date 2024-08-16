@@ -1,7 +1,5 @@
 import React from "react";
 
-import applePhotos_1 from "../assets/images/apple-photos-1.jpg";
-
 export default function SecondHighlightCard() {
     return (
         <div className="flex justify-center max-w-[60rem] items-center">
@@ -10,7 +8,7 @@ export default function SecondHighlightCard() {
                     New 48MP camera. Super-high-resolution photos. 2x Telephoto.
                 </p>
                 <img
-                    src={applePhotos_1}
+                    src="https://res.cloudinary.com/diutkhjd3/image/upload/v1723805966/iphone-15/apple-photos-1_lq2r7y.jpg"
                     alt="apple photos 1"
                     className="rounded-2xl w-full"
                 />

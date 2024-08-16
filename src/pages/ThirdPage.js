@@ -1,6 +1,5 @@
 import React from "react";
 
-import dynamicIsland from "../assets/images/third-page-dynamic-island.jpg";
 import ScrollAnimation from "react-animate-on-scroll";
 
 export default function ThirdPage() {
@@ -34,7 +33,7 @@ export default function ThirdPage() {
                     flight status, and so much more.
                 </ScrollAnimation>
                 <img
-                    src={dynamicIsland}
+                    src="https://res.cloudinary.com/diutkhjd3/image/upload/v1723805967/iphone-15/third-page-dynamic-island_oep0le.jpg"
                     alt="Dynamic Island"
                     className="max-w-[42rem]"
                 />

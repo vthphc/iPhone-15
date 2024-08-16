@@ -1,7 +1,5 @@
 import React from "react";
 
-import sixthPageImage from "../assets/images/sixthpage-image.jpeg";
-import potraitModeImage from "../assets/images/portrait_mode.jpeg";
 import ScrollAnimation from "react-animate-on-scroll";
 
 export default function SixthPage() {
@@ -29,10 +27,14 @@ export default function SixthPage() {
                     Presto chango.
                 </ScrollAnimation>
             </div>
-            <img src={sixthPageImage} alt="sixthPageImage" className="px-48" />
+            <img
+                src="https://res.cloudinary.com/diutkhjd3/image/upload/v1723805967/iphone-15/sixthpage-image_tfpryf.jpg"
+                alt="sixthPageImage"
+                className="px-48"
+            />
             <div className="relative flex px-96 pt-24 items-center">
                 <img
-                    src={potraitModeImage}
+                    src="https://res.cloudinary.com/diutkhjd3/image/upload/v1723805966/iphone-15/portrait_mode_uroovy.jpg"
                     alt="potraitModeImage"
                     className="w-[65%]"
                 />

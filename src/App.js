@@ -4,7 +4,6 @@ import EighthPage from "./pages/EighthPage";
 import FifthPage from "./pages/FifthPage";
 import FirstPage from "./pages/FirstPage";
 import FourthPage from "./pages/FourthPage";
-import HomePage from "./pages/HomePage";
 import NinthPage from "./pages/NinthPage";
 import SecondPage from "./pages/SecondPage";
 import SeventhPage from "./pages/SeventhPage";

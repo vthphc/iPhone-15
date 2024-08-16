@@ -1,6 +1,5 @@
 import React from "react";
 
-import fifthPageImage from "../assets/images/fifthpage_image.jpeg";
 import ScrollAnimation from "react-animate-on-scroll";
 
 export default function FifthPage() {
@@ -16,7 +15,10 @@ export default function FifthPage() {
                 </h1>
             </div>
             <div className="px-48 relative">
-                <img src={fifthPageImage} alt="fifthPageImage" />
+                <img
+                    src="https://res.cloudinary.com/diutkhjd3/image/upload/v1723805971/iphone-15/fifthpage_image_pfwcgy.jpg"
+                    alt="fifthPageImage"
+                />
                 <div className="absolute flex space-x-12 -bottom-8 left-1/2 -translate-x-1/2">
                     <ScrollAnimation
                         animateIn="fadeInUp"

@@ -1,7 +1,5 @@
 import React from "react";
 
-import fourthPageiPhone from "../assets/images/fourthpage-iphone.webp";
-
 import icon_ceramic_shield from "../assets/icon/icon_ceramic_shield.png";
 import icon_water_resistant from "../assets/icon/icon_water.png";
 import incon_enclosure from "../assets/icon/icon_enclosure.png";
@@ -33,7 +31,7 @@ export default function FourthPage() {
                     incredibly durable.
                 </ScrollAnimation>
                 <img
-                    src={fourthPageiPhone}
+                    src="https://res.cloudinary.com/diutkhjd3/image/upload/v1723805966/iphone-15/fourthpage-iphone_owzvte.jpg"
                     alt="iPhone 15"
                     className="pr-64 pt-12"
                 />

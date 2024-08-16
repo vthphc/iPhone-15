@@ -1,6 +1,5 @@
 import React from "react";
 
-import seventhPageImage from "../assets/images/seventhpage-image.jpeg";
 import iPhoneBatteryIcon from "../assets/icon/icon_iphone_battery.png";
 import ScrollAnimation from "react-animate-on-scroll";
 
@@ -17,7 +16,10 @@ export default function SeventhPage() {
                 </h1>
             </div>
             <div className="relative flex justify-center">
-                <img src={seventhPageImage} alt="Seventh Page" />
+                <img
+                    src="https://res.cloudinary.com/diutkhjd3/image/upload/v1723805966/iphone-15/seventhpage-image_mlnsja.jpg"
+                    alt="Seventh Page"
+                />
                 <div className="absolute px-48 -bottom-[10%] flex justify-between">
                     <ScrollAnimation
                         animateIn="fadeInUp"
