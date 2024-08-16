@@ -13,7 +13,7 @@ import ThirdPage from "./pages/ThirdPage";
 
 function App() {
     return (
-        <div className="font-inter bg-zinc-100">
+        <div className="font-inter bg-zinc-100 container mx-auto max-w-[96rem]">
             <NavBar />
             <FirstPage />
             <SecondPage />
