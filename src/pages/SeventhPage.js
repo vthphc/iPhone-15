@@ -2,6 +2,7 @@ import React from "react";
 
 import seventhPageImage from "../assets/images/seventhpage-image.jpeg";
 import iPhoneBatteryIcon from "../assets/icon/icon_iphone_battery.png";
+import ScrollAnimation from "react-animate-on-scroll";
 
 export default function SeventhPage() {
     return (
@@ -18,7 +19,11 @@ export default function SeventhPage() {
             <div className="relative flex justify-center">
                 <img src={seventhPageImage} alt="Seventh Page" />
                 <div className="absolute px-48 -bottom-[10%] flex justify-between">
-                    <div className="flex w-1/2 flex-col space-y-8">
+                    <ScrollAnimation
+                        animateIn="fadeInUp"
+                        animateOnce
+                        className="flex w-1/2 flex-col space-y-8"
+                    >
                         <div className="flex flex-col leading-none">
                             <p className="text-xl text-zinc-500 font-semibold">
                                 Up to
@@ -41,8 +46,12 @@ export default function SeventhPage() {
                                 video playback on iPhone 15
                             </p>
                         </div>
-                    </div>
-                    <div className="flex w-1/2 items-center space-x-8">
+                    </ScrollAnimation>
+                    <ScrollAnimation
+                        animateIn="fadeInUp"
+                        animateOnce
+                        className="flex w-1/2 items-center space-x-8"
+                    >
                         <img
                             src={iPhoneBatteryIcon}
                             alt="iPhone Battery Icon"
@@ -52,7 +61,7 @@ export default function SeventhPage() {
                             Up to 3 additional hours of video playback compared
                             to iPhone 12
                         </p>
-                    </div>
+                    </ScrollAnimation>
                 </div>
             </div>
         </section>

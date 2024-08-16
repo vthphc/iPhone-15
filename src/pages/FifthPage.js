@@ -1,6 +1,7 @@
 import React from "react";
 
 import fifthPageImage from "../assets/images/fifthpage_image.jpeg";
+import ScrollAnimation from "react-animate-on-scroll";
 
 export default function FifthPage() {
     return (
@@ -17,7 +18,11 @@ export default function FifthPage() {
             <div className="px-48 relative">
                 <img src={fifthPageImage} alt="fifthPageImage" />
                 <div className="absolute flex space-x-12 -bottom-8 left-1/2 -translate-x-1/2">
-                    <div className="w-1/2">
+                    <ScrollAnimation
+                        animateIn="fadeInUp"
+                        animateOnce
+                        className="w-1/2"
+                    >
                         <p className="text-[20px] font-semibold text-balance text-zinc-500">
                             Now the Main camera shoots in super-high resolution.
                             So it’s easier than ever to{" "}
@@ -26,8 +31,12 @@ export default function FifthPage() {
                             </span>
                             — from snapshots to stunning landscapes.
                         </p>
-                    </div>
-                    <div className="w-1/2 flex flex-col space-y-8">
+                    </ScrollAnimation>
+                    <ScrollAnimation
+                        animateIn="fadeInUp"
+                        animateOnce
+                        className="w-1/2 flex flex-col space-y-8"
+                    >
                         <div>
                             <p className="text-xl font-semibold text-zinc-500">
                                 Up to
@@ -47,7 +56,7 @@ export default function FifthPage() {
                                 is like having a third camera
                             </p>
                         </div>
-                    </div>
+                    </ScrollAnimation>
                 </div>
             </div>
         </section>

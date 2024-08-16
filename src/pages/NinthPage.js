@@ -1,6 +1,7 @@
 import React from "react";
 
 import NinthPageImage from "../assets/images/ninthpage-image.png";
+import ScrollAnimation from "react-animate-on-scroll";
 
 export default function NinthPage() {
     return (
@@ -13,20 +14,20 @@ export default function NinthPage() {
                     <span className="text-black">USB-C</span>
                     ompatible.
                 </h1>
-                <p className="text-zinc-500 font-inter text-xl text-balance font-semibold pt-12">
+                <ScrollAnimation
+                    animateIn="fadeInUp"
+                    animateOnce
+                    className="text-zinc-500 font-inter text-xl text-balance font-semibold pt-12"
+                >
                     The new USB-C connector lets you{" "}
                     <span className="text-black">
                         charge your Mac or iPad with the same cable
                     </span>{" "}
                     you use to charge iPhone 15. You can even use iPhone 15 to
                     charge Apple Watch or AirPods. Bye-bye, cable clutter.
-                </p>
+                </ScrollAnimation>
             </div>
-            <img
-                src={NinthPageImage}
-                alt="Ninth Page Image"
-                className=""
-            />
+            <img src={NinthPageImage} alt="Ninth Page Image" className="" />
         </section>
     );
 }

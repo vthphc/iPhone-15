@@ -5,6 +5,7 @@ import fourthPageiPhone from "../assets/images/fourthpage-iphone.webp";
 import icon_ceramic_shield from "../assets/icon/icon_ceramic_shield.png";
 import icon_water_resistant from "../assets/icon/icon_water.png";
 import incon_enclosure from "../assets/icon/icon_enclosure.png";
+import ScrollAnimation from "react-animate-on-scroll";
 
 export default function FourthPage() {
     return (
@@ -17,7 +18,11 @@ export default function FourthPage() {
                     Color through and through.
                     <span>Tough all around.</span>
                 </h1>
-                <p className="text-xl max-w-[42rem] text-zinc-500 font-semibold text-start text-balance">
+                <ScrollAnimation
+                    animateIn="fadeInUp"
+                    animateOnce
+                    className="text-xl max-w-[42rem] text-zinc-500 font-semibold text-start text-balance"
+                >
                     The innovative new design features{" "}
                     <span className="text-black mx-1.5">
                         back glass that has color infused throughout the
@@ -26,7 +31,7 @@ export default function FourthPage() {
                     A custom dual ion-exchange process for the glass, and an
                     aerospace-grade aluminum enclosure, help make iPhone 15
                     incredibly durable.
-                </p>
+                </ScrollAnimation>
                 <img
                     src={fourthPageiPhone}
                     alt="iPhone 15"
@@ -34,7 +39,11 @@ export default function FourthPage() {
                 />
             </div>
             <div className="w-full px-80 pb-24 font-inter flex justify-center">
-                <div className="flex justify-between space-x-12">
+                <ScrollAnimation
+                    animateIn="fadeInUp"
+                    animateOnce
+                    className="flex justify-between space-x-12"
+                >
                     <div className="flex flex-1 flex-col items-start ">
                         <img
                             src={icon_ceramic_shield}
@@ -77,7 +86,7 @@ export default function FourthPage() {
                             strong and light.
                         </p>
                     </div>
-                </div>
+                </ScrollAnimation>
             </div>
         </section>
     );

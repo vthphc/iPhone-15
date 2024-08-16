@@ -2,6 +2,7 @@ import React from "react";
 
 import videoSrc from "../assets/videos/a16_bionic.mp4";
 import iphoneBatteryIcon from "../assets/icon/icon_iphone_battery_white.png";
+import ScrollAnimation from "react-animate-on-scroll";
 
 export default function EighthPage() {
     return (
@@ -23,7 +24,12 @@ export default function EighthPage() {
             >
                 <source src={videoSrc} type="video/mp4" />
             </video>
-            <p className="text-zinc-500 text-center font-inter text-xl px-96 text-balance font-semibold pt-12">
+            <ScrollAnimation
+                animateIn="fadeInUp"
+                animateOnce
+                duration={1}
+                className="text-zinc-500 text-center font-inter text-xl px-96 text-balance font-semibold pt-12"
+            >
                 <span className="text-white">
                     A16 Bionic powers all kinds of advanced features.
                 </span>{" "}
@@ -32,8 +38,13 @@ export default function EighthPage() {
                 smooth performance for graphics-intensive games. All with
                 incredible efficiency for great battery life. No wonder it
                 started as a Pro chip.
-            </p>
-            <div className="w-full flex justify-center pt-12">
+            </ScrollAnimation>
+            <ScrollAnimation
+                animateIn="fadeInUp"
+                animateOnce
+                duration={1}
+                className="w-full flex justify-center pt-12"
+            >
                 <div className="flex space-x-8 items-center pt-4 w-[24rem] border-t border-zinc-500">
                     <img src={iphoneBatteryIcon} alt="iPhone Battery Icon" />
                     <p className="text-zinc-500 text-xl font-semibold">
@@ -41,7 +52,7 @@ export default function EighthPage() {
                         iPhone 12
                     </p>
                 </div>
-            </div>
+            </ScrollAnimation>
         </section>
     );
 }

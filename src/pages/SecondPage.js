@@ -6,10 +6,18 @@ import SecondHighlightCard from "../components/SecondHighlightCard";
 import ThirdHighlightCard from "../components/ThirdHighlightCard";
 import FourthHighlightCard from "../components/FourthHighlightCard";
 
+import ScrollAnimation from "react-animate-on-scroll";
+import "animate.css/animate.compat.css";
+
 export default function SecondPage() {
     return (
         <section id="secondpage">
-            <div className="flex font-inter px-48 py-12 items-end flex-row justify-between">
+            <ScrollAnimation
+                animateIn="fadeInUp"
+                animateOnce
+                duration={0.5}
+                className="flex font-inter px-48 py-12 items-end flex-row justify-between"
+            >
                 <h1 id="title" className="text-5xl font-semibold">
                     Get the highlights.
                 </h1>
@@ -22,7 +30,7 @@ export default function SecondPage() {
                         className="ml-2 w-5 h-5"
                     />
                 </div>
-            </div>
+            </ScrollAnimation>
             <div className="w-full h-full flex flex-col space-y-8 px-48 items-center rounded-3xl overflow-hidden">
                 <FirstHighlightCard />
                 <SecondHighlightCard />
